@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setTitle("Exercise7_6");
+        setTitle("Pet Photo Viewer");
 
         rGroup1 = (RadioGroup)findViewById(R.id.Rgroup1);
         rdoDog = (RadioButton)findViewById(R.id.RdoDog);
